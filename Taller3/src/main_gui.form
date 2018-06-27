@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main_gui">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="14" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1012" height="542"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="77307" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Taller 3 ESTRUCTURAS DE DATOS UNIVERSIDAD NACIONAL DE COLOMBIA"/>
+        </properties>
+      </component>
+      <component id="400ce" class="javax.swing.JList" binding="posiblesColores">
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model>
+            <item value="NEGRO"/>
+            <item value="MARRON"/>
+            <item value="ROJO"/>
+            <item value="NARANJA"/>
+            <item value="AMARILLO"/>
+            <item value="VERDE"/>
+            <item value="AZUL"/>
+            <item value="MORADO"/>
+            <item value="GRIS"/>
+            <item value="BLANCO"/>
+            <item value="DORADO"/>
+            <item value="PLATEADO"/>
+          </model>
+          <name value="Posibles Colores a elegir"/>
+          <toolTipText value="Posibles Colores a elegir"/>
+        </properties>
+      </component>
+      <component id="f815f" class="javax.swing.JList" binding="coloresSeleccionados">
+        <constraints>
+          <grid row="2" column="5" row-span="2" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <vspacer id="cf0bd">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ea028" class="javax.swing.JTextField" binding="valorPPM">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bed6" class="javax.swing.JTextField" binding="valorTolerancia">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d5ff1" class="javax.swing.JTextField" binding="valorResistor">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="498b0" class="javax.swing.JLabel" binding="valorResResistenci">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Valor Resistencia"/>
+        </properties>
+      </component>
+      <component id="3330c" class="javax.swing.JLabel" binding="valorResTolelarancia">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Valor Tolerancia"/>
+        </properties>
+      </component>
+      <component id="12826" class="javax.swing.JLabel" binding="aux1">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="±"/>
+        </properties>
+      </component>
+      <component id="ed1b7" class="javax.swing.JLabel" binding="aux2">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="%"/>
+        </properties>
+      </component>
+      <component id="180c" class="javax.swing.JLabel" binding="aux0">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ω"/>
+        </properties>
+      </component>
+      <component id="71b9b" class="javax.swing.JLabel" binding="valorPPMLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Valor PPM"/>
+        </properties>
+      </component>
+      <component id="a62cb" class="javax.swing.JLabel" binding="aux3">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ppm/°C"/>
+        </properties>
+      </component>
+      <vspacer id="85b00">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="16cb1">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="230c9">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="78dfd">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="38b43" class="javax.swing.JLabel" binding="LabelCalcColores">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <requestFocusEnabled value="false"/>
+          <text value="Agregue valor en ohmios"/>
+        </properties>
+      </component>
+      <component id="f30bc" class="javax.swing.JLabel" binding="aux5">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Posibles Colores a elegir"/>
+        </properties>
+      </component>
+      <component id="4797d" class="javax.swing.JTextField" binding="indiceRemover">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cfdfb" class="javax.swing.JLabel" binding="Label1">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <requestFocusEnabled value="false"/>
+          <text value="Determine el tamaño de la resistencia"/>
+        </properties>
+      </component>
+      <component id="3f213" class="javax.swing.JTextField" binding="tamanoResistencia">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="fe9b6" class="javax.swing.JButton" binding="removerColor">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remover Color por Indice"/>
+        </properties>
+      </component>
+      <component id="765a2" class="javax.swing.JButton" binding="agregarColor">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Agregar Color"/>
+        </properties>
+      </component>
+      <component id="9a209" class="javax.swing.JLabel" binding="aux6">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="El ultimo elemento de la Resistencia"/>
+        </properties>
+      </component>
+      <component id="c4b3f" class="javax.swing.JLabel" binding="aux7">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="consiste en la tolerancia en el caso de 5 bandas"/>
+        </properties>
+      </component>
+      <component id="1d9fb" class="javax.swing.JLabel" binding="aux8">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="y en el ppm en el caso de 6 bandas"/>
+        </properties>
+      </component>
+      <component id="705c7" class="javax.swing.JButton" binding="botonCalcColores">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calcular Colores"/>
+        </properties>
+      </component>
+      <component id="f91b4" class="javax.swing.JTextField" binding="resCalcColores">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="abc" class="javax.swing.JLabel" binding="aux9">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="El ultimo color de la banda corresponde al  multiplicativo"/>
+        </properties>
+      </component>
+      <component id="23868" class="javax.swing.JLabel" binding="aux10">
+        <constraints>
+          <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="los colores correspondientes a tolerancia y ppm"/>
+        </properties>
+      </component>
+      <component id="c2000" class="javax.swing.JLabel" binding="aux11">
+        <constraints>
+          <grid row="12" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="no se pueden calcular con el valor de resistividad"/>
+        </properties>
+      </component>
+      <component id="1eebc" class="javax.swing.JLabel" binding="aux4">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=" para calcular el código de colores"/>
+        </properties>
+      </component>
+      <component id="e6779" class="javax.swing.JTextField" binding="calcValResis">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ebcb6" class="javax.swing.JLabel" binding="aux12">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <requestFocusEnabled value="false"/>
+          <text value="Por Ejemplo: 1000.00"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
