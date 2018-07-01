@@ -124,4 +124,48 @@ The steps for the code are in the following picture:
 
 - The main class is called Main just run with your favorite IDE.
 
+
+
+## Max Heap
+
+Pseudocode Implemented in Java of the Data Structures Course by Universidad de California en San Diego & National Research University Higher School of Economics (Coursera)
+
+#### How to run:
+
+- The Data structure class is called MaxHeap and we can run a Test class called MaxHeapTest provided by the Teacher of the course.
+
+- The Test class run on JUnit 4 Test Library.
+
+
+
+## Disjoint Set
+
+Pseudocode Implemented in Java of the Data Structures Course by Universidad de California en San Diego & National Research University Higher School of Economics (Coursera)
+
+#### How to run:
+
+- The Data structure class is called DisjointSet and we can run a Test class called DisjointSetTest provided by the Teacher of the course.
+
+- The Test class run on JUnit 4 Test Library.
+
+
+## Rabin Karp Algorithm
+
+Pseudocode Implemented in Java of the Data Structures Course by Universidad de California en San Diego & National Research University Higher School of Economics (Coursera)
+
+- The Algorithm Rabin Karp is based on Hashing technique, the main class is called Main and evaluate how many strings of the pattern input match with the text (in my case Don quijote Book).
+
+#### How to run:
+
+- Run the Main class
+
+- Input the number of patterns to search
+
+- Write the Patterns separated by Enter
+
+- Wait to Rabin Karp results
+
+
+
+
 The Code is only for Academic purposal, Developed on Intellij Idea by JetBrains (Student License).
